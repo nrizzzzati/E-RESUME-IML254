@@ -1,0 +1,92 @@
+/* ===== Navigation Bar ===== */
+nav {
+  background-color: #111;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  padding: 15px 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: orange;
+}
+
+/* ===== Footer ===== */
+footer {
+  margin-top: 30px;
+  background: #5E4848;
+  color: #2B2020;
+  text-align: center;
+  padding: 15px;
+  font-size: 16px;
+}
+
+/* ===== Table ===== */
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  outline-style: double;
+}
+
+tr:first-child {
+  background-color: #3D2306;
+  color: white;
+}
+
+tr:nth-child(2),
+tr:last-child {
+  background-color: #C99961;
+}
+
+/* ===== Gallery ===== */
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.gallery-img {
+  border: 6px solid #524007;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  margin: auto;
+  width: 250px; 
+  height: 200px;
+}
+
+ .hobbies-img {
+   border: 6px solid #FEEBE7;
+   border-radius: 10px;
+   box-shadow: 0 0 10px rgba(0,0,0,0.2);
+   margin: auto;
+   width: 250px; 
+   height: 200px;
+}
+
+/* ===== Banner ===== */
+ .banner {
+   width: 100%;  
+   height: auto; 
+   object-fit: cover; 
+   display: block;
+} 
+
+ .anchor {
+  scroll-behavior: smooth;
+}
+

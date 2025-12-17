@@ -8,62 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Experience</title>
+    <link rel="stylesheet" href="style.css">
 
-<style>
-   nav {
-    background-color: #111;
-  }
-
-  nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-  }
-
-  nav ul li {
-    padding: 15px 20px;
-  }
-
-  nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-  }
-
-  nav ul li a:hover {
-    color: orange;
-  }
-
-  footer {
-    margin-top: 30px;
-    background: #5E4848;
-    color: 2B2020;
-    text-align: center;
-    padding: 15px;
-    font-size: 16px;
-}
-
-   table, th, td {
-     border:1px solid black;
-     border-collapse: collapse;
-     outline-style: double;
-     
-}
-
-  tr:first-child {
-     background-color: #3D2306;
-     color: white;
-}
-
-  tr:nth-child(2),
-  tr:last-child {
-     background-color: #C99961;
-
-}
-
-</style>
 </head>
 <body>
 
@@ -71,7 +17,7 @@
 
     <!-- HEADER -->
     <header>
-        <img src="banner/experience.png" style="width: 100%;height: auto; object-fit: cover; display: block;">  
+        <img src="banner/experience.png" class="banner">  
     </header>
 
     <!-- MENU -->
@@ -83,13 +29,14 @@
           <li><a href="skills.html">Skills</a></li>
           <li><a href="gallery.html">Gallery</a></li>
           <li><a href="experience.html">Experience</a></li>
+          <li><a href="hobbies.html">Hobbies</a></li>
           <li><a href="contact.html">Contact</a></li>
     	</ul>
      </nav>
 
     <!-- CONTENT -->
     <main>
-        <h1 style="font-family: Georgia; font-size:300%; color:#524007;border:2px solid #A18642;"><center>My working experience</h1></center>
+        <h1 style="font-family: Georgia; font-size:300%; color:#524007;border:2px solid #A18642;font-style: oblique;"><center>My working experience</h1></center>
 
 <p><center>Here are experience working that I have been tried:</center></p>
 
@@ -107,23 +54,24 @@
     <td><img src="images/noko.png" width="200" height="150"</td>
     <td>Part timer / Helper</td>
     <td>3 months</td>
-    <td><a href="https://noko.com.my/">Noko Malaysia</a>
+    <td><a href="https://noko.com.my/" target="_blank" style="color:#607A40">Noko Malaysia</a>
   </tr>
   <tr>
     <td><img src="images/redoor.png" width="200" height="150"</td>
     <td>Cafe Assistant</td>
     <td>2 years</td>
-    <td><a href="https://trust-malaysia.com/redoor-coffee-cafe-15279502845186389557/">Redoor Coffee Cafe</a>
+    <td><a href="https://trust-malaysia.com/redoor-coffee-cafe-15279502845186389557/" target="_blank" style="color:#607A40">Redoor Coffee Cafe</a>
   </tr>
 </table>
 
-  <p><center><a href="#top" id="top">Back to Top</a></center>
+  <anchor class="anchor">
+    <p><center><a href="#top">Back to Top</a></center>
 </p>
     </main>
 
     <!-- FOOTER -->
     <footer>
-        <b><p>Copyright © 2025 Nur Izzati</p></b>
+        <b><p>Copyright © 2025 Nur Izzati. All Rights Reserved.</p></b>
         <b><p>Last Updated: 18 December 2025</p></b>
         <b><p>Best viewed with Chrome </p></b>
     </footer>

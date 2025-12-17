@@ -8,52 +8,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>About Me</title>
+    <link rel="stylesheet" href="style.css">
 
-<style>
-   nav {
-    background-color: #111;
-  }
-
-  nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-  }
-
-  nav ul li {
-    padding: 15px 20px;
-  }
-
-  nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-  }
-
-  nav ul li a:hover {
-    color: orange;
-  }
-
-  footer {
-    margin-top: 30px;
-    background: #5E4848;
-    color: 2B2020;
-    text-align: center;
-    padding: 15px;
-    font-size: 16px;
-}
-
-</style>
 </head>
-<body>
+<body> 
 
 <div class="container">
 
     <!-- HEADER -->
     <header>
-        <img src="banner/aboutme.png" style="width: 100%;height: auto; object-fit: cover; display: block;">    
+        <img src="banner/aboutme.png" class="banner">    
     </header>
 
     <!-- MENU -->
@@ -65,6 +29,7 @@
           <li><a href="skills.html">Skills</a></li>
           <li><a href="gallery.html">Gallery</a></li>
           <li><a href="experience.html">Experience</a></li>
+          <li><a href="hobbies.html">Hobbies</a></li>
           <li><a href="contact.html">Contact</a></li>
     	</ul>
     </nav>
@@ -75,22 +40,26 @@
 	<div style="display: flex; align items: center; gap: 20px; padding: 20px;">
 
 	<!----Profile Image---->
-
-	<img src="images/profile.jpg"style="width:30%;height:300px	; border-radius:10px; border-style: double; border-color:#D46D13;">
+        <a href="https://music.apple.com/library/playlist/p.AWXoLY4CNqbr25R" target="_blank">
+	  <img src="images/profile.jpg"style="width:300px;height:300px; border-radius:10px; border-style: double; border-color:#D46D13;">
+	</a>
 
 	<!-----Text to Image--->
 	 <p style=" background-color:#59481C; width:60%; font-size:18px; line-height:1.6; font-family: Georgia; color:#EBE7DD; font-weight: bold; border: 5px solid #A88548">Name : Nur Izzati binti Fuzi <br> Age: 23 years old<br>Student ID: 2024530193 <br> Email: nurizzatifuzi10@gmail.com <br> Course: KCDIM144 <br>Address: Blok 33-01-12 Flat Sri Perak Bandar Baru Sentul 51000 K.L. <br> Contact No: 0133872328 <br> Siblings: 5 <br> Motto life: Work and study smart </p>
 
 	</div>
+      
 
- 	<p><a href="#top" id="top"><center>Back to Top</a></p></center>
+	<anchor class="anchor">
+ 	  <p><a href="#top"><center>Back to Top</a></p></center>
     </main>
 
     <!-- FOOTER -->
     <footer>
-        <p><b>Copyright © 2025 Nur Izzati</p></b>
+        <p><b>Copyright © 2025 Nur Izzati. All Rights Reserved.</p></b>
         <p><b>Last Updated: November 2025</p></b>
         <p><b>Best viewed with Chrome </p></b>
+	<p><b>Resolution |1366 x 768</p><b>
     </footer>
 
 </div>
